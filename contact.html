@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+
+	<head>
+		<title>Lemonbrush</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/lemonStyle.css?v=0.0.151">
+
+		<style type="text/css">
+
+			/* main content */
+
+			input{
+				-webkit-appearance: none;
+    			-moz-appearance: none;
+    			appearance: none;
+    			box-shadow: none !important; 
+			}
+			
+		</style>
+	</head>
+
+	<body>
+
+		<header class="header">
+			<div>
+				<a href="index.html"><img id="logo" src="images/logo.png"></a>
+			</div>
+			
+			<div><a class="navButton" href="index.html">О нас</a></div>
+			<div><a class="navButton" href="our_works.html">Работы</a></div>
+			<div><a class="navButton" href="index.html#moreWorks">Услуги</a></div>
+			<div><a id="selectedNavButton" class="navButton" href="contact.html">Контакты</a></div>
+			
+		</header>
+
+		<div class="show">
+			<div><h1>Связаться с нами</h1></div>
+			<p class="description">Оставьте свой номер телефона или почтовый адрес, и мы с вами свяжемся</p>
+
+			<form>
+
+				<input type="hidden" name="project_name" value="LemonbrushSite">
+				<input type="hidden" name="admin_email" value="aa_rubtsov@mail.ru">
+				<input type="hidden" name="form_subject" value="Lemonbrush форма с сайта">
+
+				<input type="text" name="Name" placeholder="Ваше имя">
+				<input type="text" name="E-mail" placeholder="Ваш телефон или email">
+				<input type="submit" value="Отправить">
+			</form>
+
+			<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="script.js"></script>
+
+			<div class="linkBlock">
+				<a href="https://www.instagram.com/lemonbrusher/"><img class="contactMedia" src="images/icons/instagramIconG.png"></a>
+				<a href="https://vk.com/lemonbrush"><img id="rightLinkMedia" class="contactMedia" src="images/icons/vkIconG.png"></a>
+			</div>
+
+		</div>
+
+		<footer class="footer fixedFooter">
+
+			<div class="footerMedia">
+				<p id="footerYear" class="footerContentSpace">2020 - Lemonbrush design</p>
+			</div> <!-- footerMedia -->
+		</footer>
+
+	</body>
+
+</html>
